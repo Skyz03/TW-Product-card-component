@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+/* font-family: 'Fraunces', serif; */
+
+@layer base {
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
 /* Custom CSS  */
 .attribution {
   font-size: 11px;
