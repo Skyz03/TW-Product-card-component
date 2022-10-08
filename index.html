@@ -9,30 +9,30 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="./assets/images/favicon-32x32.png"
     />
 
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="./images/favicon_io/apple-touch-icon.png"
+      href="./assets/images/favicon_io/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon_io/favicon-32x32.png"
+      href="./assets/images/favicon_io/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="./images/favicon_io/favicon-16x16.png"
+      href="./assets/images/favicon_io/favicon-16x16.png"
     />
-    <link rel="manifest" href="./images/favicon_io/site.webmanifest" />
+    <link rel="manifest" href="./assets/images/favicon_io/site.webmanifest" />
     <!-- FAVICON ENDS HERE  -->
 
-    <link rel="stylesheet" href="./dist/main.css" />
+    <link rel="stylesheet" href="./assets/dist/main.css" />
 
     <title>Product Card Component</title>
   </head>
@@ -43,26 +43,29 @@
         <picture>
           <source
             media="(min-width:576px)"
-            srcset="./images/image-product-desktop.jpg"
+            srcset="./assets/images/image-product-desktop.jpg"
           />
           <img
             class="rounded-t-lg w-full object-cover"
-            src="./images/image-product-mobile.jpg"
+            src="./assets/images/image-product-mobile.jpg"
             alt="Perfume"
           />
         </picture>
         <!-- PICTURE ENDS HERE  -->
 
         <div class="p-5">
-          <p class="text-gray-600 uppercase tracking-widest">Perfume</p>
-          <h1>Gabrielle Essence Eau De Parfum</h1>
+          <p class="text-gray-600 uppercase tracking-widest text-xs">Perfume</p>
+          <h1 class="text-3xl font-semibold mt-3 mb-5">
+            Gabrielle Essence Eau De Parfum
+          </h1>
 
-          <p class="break-all">
+          <p class="break-all text-gray-600 text-sm mb-5">
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
 
-          <h2>$149.99 $169.99</h2>
+          <span class="text-3xl text-current">$149.99</span>
+          <span>$169.99</span> <br />
           <button>Add to Cart</button>
         </div>
       </div>

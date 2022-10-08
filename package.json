@@ -4,8 +4,8 @@
   "description": "![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./assets/input.css -o ./dist/main.css",
-    "watch": "npx tailwindcss -i ./assets/input.css -o ./dist/main.css --watch"
+    "build": "npx tailwindcss -i ./assets/input.css -o ./assets/dist/main.css",
+    "watch": "npx tailwindcss -i ./assets/input.css -o ./assets/dist/main.css --watch"
   },
   "repository": {
     "type": "git",
